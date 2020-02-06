@@ -1,0 +1,101 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(https://www.datagroup.de/wp-content/uploads/2019/06/DTG-Hero-Standorte-Frankfurt.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+}
+
+/*h1, p {
+  background-color: white;
+}*/
+
+.container {
+  width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-apply {
+    display: inline-block;
+    background-color: #1EDD88;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn-apply:hover {
+  color: #1EDD88;
+  border: 2px solid #1EDD88;
+  background-color: white;
+  padding: 16px 36px;
+  border-radius: 50px;
+}
+
+.cards {
+  display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+  width: 280px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+}
+
+.awesome_icons {
+  color: rgb(200, 200, 200);
+  font-size: 50px;
+  padding:20px;
+}
+
+p {
+  display: block;
+}
+
+
+
+
+
+
+
